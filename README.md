@@ -1,4 +1,5 @@
 Tài liệu ở đây: 
 https://drive.google.com/drive/folders/1vbl4YKl3xS_GWqdJrqDIs_IOKpr84sIL?fbclid=IwY2xjawTzfgpwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMUtYQlNCa092S2Z2b3J4TmdzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEezOeNLXi3PXojkWtV2DucpfoXrbJM7WRG4JlvUpZskHXoYkNnxT0unNlJ0oA_aem_n47hvJdL5z2GWTrn5JzL5Q
-bài học ngày 20/8/2026:
+
+Bài học ngày 20/8/2026:
 https://cdn.fbsbx.com/v/t59.2708-21/779354899_1488242399729978_1660004217564729714_n.pdf/Buoi-1.pdf?_nc_cat=109&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeELdgm9PDwNw-wT9llAWJLGAhgenMLuFDsCGB6cwu4UOySNhLz1mIUBZAPned4e7Q4Lne77Vm2wy8zXUY4vvqrw&_nc_ohc=DAL67H_HCLIQ7kNvwF2urTy&_nc_oc=AdocYSBLCM7pMajH6xvnGqnUXIZ5uEfVEFpvJqwPZn2V5130FPuKbMiNOGhLPtYRGzhEByjUVyC7bG5bkd2fe3BE&_nc_zt=7&_nc_ht=cdn.fbsbx.com&_nc_gid=3ZqeKZ7D6QoE4WQx0zRSHQ&_nc_ss=7b2a8&oh=03_Q7cD6AExdttfAr4hh-1eEtmEzLl3_IQxodyHBzJAjz2_TWYl1w&oe=6A886DD3&dl=1
