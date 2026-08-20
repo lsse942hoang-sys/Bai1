@@ -1,0 +1,92 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C__
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+
+            string hoTen;
+            double diemToan;
+            double diemVan;
+            double diemTrungBinh;
+
+            // Nhập họ tên
+            Console.WriteLine("Mời nhập vào họ tên:");
+            hoTen = Console.ReadLine();
+
+            // Nhập điểm Toán
+            while (true)
+            {
+                Console.Write("Mời nhập vào điểm Toán: ");
+
+                if (double.TryParse(Console.ReadLine(), out diemToan))
+                {
+                    if (diemToan >= 0 && diemToan <= 10)
+                    {
+                        break;
+                    }
+                }
+
+                Console.WriteLine("Điểm không hợp lệ! Vui lòng nhập lại từ 0 đến 10.");
+            }
+
+            // Nhập điểm Văn
+            while (true)
+            {
+                Console.Write("Mời nhập vào điểm Văn: ");
+
+                if (double.TryParse(Console.ReadLine(), out diemVan))
+                {
+                    if (diemVan >= 0 && diemVan <= 10)
+                    {
+                        break;
+                    }
+                }
+
+                Console.WriteLine("Điểm không hợp lệ! Vui lòng nhập lại từ 0 đến 10.");
+            }
+
+            // Tính điểm trung bình
+            diemTrungBinh = (diemToan + diemVan) / 2;
+
+            // Xuất thông tin
+            Console.WriteLine();
+            Console.WriteLine("===== KẾT QUẢ =====");
+            Console.WriteLine("Học sinh: {0}", hoTen);
+            Console.WriteLine("Điểm Toán: {0}", diemToan);
+            Console.WriteLine("Điểm Văn: {0}", diemVan);
+            Console.WriteLine("Điểm trung bình: {0:F2}", diemTrungBinh);
+
+            // =========================
+            // BT1.3 - PHÂN LOẠI HỌC LỰC
+            // =========================
+
+            if (diemTrungBinh >= 8)
+            {
+                Console.WriteLine("Học lực: Giỏi");
+            }
+            else if (diemTrungBinh >= 6.5)
+            {
+                Console.WriteLine("Học lực: Khá");
+            }
+            else if (diemTrungBinh >= 5)
+            {
+                Console.WriteLine("Học lực: Trung bình");
+            }
+            else
+            {
+                Console.WriteLine("Học lực: Yếu");
+            }
+
+            Console.ReadKey();
+        }
+
+    }
+}
